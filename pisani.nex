@@ -1,0 +1,13 @@
+begin mrbayes;
+	exec min2.I1.5.nex;
+
+	lset coding=noabsencesites|nosingletonpresence;
+
+	[uncomment the next line to disable bias correction]
+	[lset coding=all;]
+
+	lset rates=gamma;
+	set autoclose=yes;
+	mcmc filename=metazoa;
+	sumt;
+end;
