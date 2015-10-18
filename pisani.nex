@@ -1,9 +1,13 @@
 begin mrbayes;
 	exec min2.I1.5.nex;
 
+	[correction for removing genes present in fewer than 2 taxa]
 	lset coding=noabsencesites|nosingletonpresence;
-
-	[uncomment the next line to disable bias correction]
+	
+	[uncomment the next line to enable the correction for removing parsimony non-informative sites]
+	[lset coding=informative;]
+	
+	[uncomment the next line to disable all bias correction]
 	[lset coding=all;]
 
 	lset rates=gamma;
