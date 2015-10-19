@@ -4,7 +4,7 @@ begin mrbayes;
 	[correction for removing genes present in fewer than 2 taxa]
 	lset coding=noabsencesites|nosingletonpresence;
 	
-	[uncomment the next line to enable the correction for removing parsimony non-informative sites]
+	[uncomment the next line to enable the correction for removing parsimony uninformative sites]
 	[lset coding=informative;]
 	
 	[uncomment the next line to disable all bias correction]
