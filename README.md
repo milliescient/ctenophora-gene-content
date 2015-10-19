@@ -1,4 +1,4 @@
-This repository contains the MrBayes script ("pisani.nex") used for the gene content analysis of Pisani et al. 2016.
+This repository contains the MrBayes script ("min2.I1.5.mb") used for the gene content analysis of Pisani et al. 2015.
 In order to run this script you must use the development version of MrBayes 3.2.6 r1067, or later.
 You can download the source code for the latest development version of MrBayes using [this link](http://sourceforge.net/p/mrbayes/code/HEAD/tree/) and clicking "Download Snapshot".
 
