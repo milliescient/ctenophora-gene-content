@@ -1,5 +1,4 @@
-This repository contains the MrBayes script ("min2.I1.5.mb") used for the gene content analysis of Pisani et al. 2015.
-In order to run this script you must use the development version of MrBayes 3.2.6 r1067, or later.
-You can download the source code for the latest development version of MrBayes using [this link](http://sourceforge.net/p/mrbayes/code/HEAD/tree/) and clicking "Download Snapshot".
+This repository contains the MrBayes script ("min2.I1.5.mb") used for the gene content analysis of [Pisani et al. 2015](http://www.pnas.org/content/early/2015/11/24/1518127112.abstract).
+In order to run this script you must use [MrBayes version 3.2.6](http://mrbayes.sourceforge.net/) or later (the ascertainment bias correction used in the paper is implemented in revision r1067).
 
 You can download the original dataset of [Ryan et al. 2013](https://www.sciencemag.org/content/342/6164/1242592) from [here](http://research.nhgri.nih.gov/manuscripts/Baxevanis/science2013_supplement/). You must convert the alignment file ("min2.I1.5.phy") from Phylip (sequential) format to NEXUS format (e.g. using [this site](http://www.hiv.lanl.gov/content/sequence/FORMAT_CONVERSION/form.html)), and set the datatype to "restriction".
